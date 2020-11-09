@@ -1,4 +1,4 @@
-import java.util.Date;
+package Grønhandleren;
 
 /**
  * Developed by András Ács (acsandras@gmail.com)

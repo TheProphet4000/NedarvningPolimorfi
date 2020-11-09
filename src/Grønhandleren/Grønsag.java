@@ -1,3 +1,5 @@
+package Grønhandleren;
+
 /**
  * Developed by András Ács (acsandras@gmail.com)
  * Zealand / www.zealand.dk
@@ -5,6 +7,8 @@
  * 09/11/2020
  */
 
-public class Peas extends Grønsag {
-
+public class Grønsag extends Varer {
+    void freeze() {
+        System.out.println("Fryses ned.");
+    }
 }
