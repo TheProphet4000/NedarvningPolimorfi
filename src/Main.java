@@ -23,6 +23,19 @@ public class Main {
         p.holdbarhed = new Date(1608768000);
         p.freeze();
 
+        Agurker ag = new Agurker();
+        ag.stykpris = 5;
+        ag.forhandelbar = true;
+        ag.holdbarhed = new Date (1608768001);
+        p.freeze();
+
+        Tulipaner t = new Tulipaner();
+        t.stykpris = 20;
+        t.blomstre = false;
+        t.farve = ("Blå");
+        t.forhandelbar = true;
+        t.givVand();
+
     }
 
 }

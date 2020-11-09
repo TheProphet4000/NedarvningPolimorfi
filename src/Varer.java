@@ -11,10 +11,10 @@ public class Varer {
 
     double stykpris;
     Date holdbarhed;
-    boolean kanSælges = true;
+    boolean forhandelbar = true;
 
     void smidUd() {
-        kanSælges = false;
+        forhandelbar = false;
     }
 
 }
