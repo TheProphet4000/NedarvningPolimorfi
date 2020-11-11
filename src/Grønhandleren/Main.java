@@ -17,19 +17,15 @@ public class Main {
         a.stykpris = 2;
         a.holdbarhed = new Date(1608768000);
         a.smidUd();
-        a.moden = true;
-        a.coolDown();
 
         Peas p = new Peas();
         p.stykpris = 0.1;
         p.holdbarhed = new Date(1608768000);
-        p.freeze();
 
         Agurker ag = new Agurker();
         ag.stykpris = 5;
         ag.forhandelbar = true;
         ag.holdbarhed = new Date (1608768001);
-        p.freeze();
 
         Tulipaner t = new Tulipaner();
         t.stykpris = 20;

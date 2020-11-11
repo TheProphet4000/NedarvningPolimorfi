@@ -7,8 +7,9 @@ package Grønhandleren;
  * 09/11/2020
  */
 
-public class Grønsag extends Varer {
-    void freeze() {
-        System.out.println("Fryses ned.");
+public class ChillFruit extends Varer {
+
+    void coolDown() {
+        System.out.println("Æblerne køles ned.");
     }
 }

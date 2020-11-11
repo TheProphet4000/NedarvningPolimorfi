@@ -1,4 +1,6 @@
 package Grønhandleren;
 
-public class Agurker extends Grønsag {
+import Grønhandleren.FreezeVegies;
+
+public class Agurker extends Varer {
 }
