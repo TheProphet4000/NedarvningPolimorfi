@@ -3,8 +3,7 @@ import java.util.ArrayList;
 
 public class VareListe {
 
-    ArrayList<Varer> vareLager = new ArrayList<Varer>();
-    private Object Agurker;
+    ArrayList<Varer> vareLager = new ArrayList<>();
 
     public void opteldning(){
         vareLager.add(new Agurker());
@@ -13,14 +12,12 @@ public class VareListe {
     }
 
     public int varerIAlt(){return vareLager.size();}
-}
 
-   /* public int visLager(){
-        for (Agurker:vareLager) {
-            System.out.print(Agurker);
-
+    /*public void visLager(){
+        int i = 0;
+        for (i != vareLager.size();) {
+            return(" ");
         }
-    }
+    }*/
     public int antalAgurker(){return 0;}
 }
-    */
