@@ -18,14 +18,14 @@ public class VareListe {
         return vareLager.size();
     }
 
-    public int antalAgurker(){
+    public int antalAgurker(){ //skal indenholde hvor mange agurker der er på lageret
         return 0;
     }
 
     public void visLager(){
         for (int i = 0; i < vareLager.size(); i++){
             System.out.println("Vare nummer " + i + " er " + vareLager.get(i));
-            //System.out.println("Der er" + "antal agurker på lageret");
+            //System.out.println("Der er " + " antal agurker på lageret");
         }
     }
 
