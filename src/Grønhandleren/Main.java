@@ -16,7 +16,6 @@ public class Main {
         Apple a = new Apple();
         a.stykpris = 2;
         a.holdbarhed = new Date(1608768000);
-        a.smidUd();
 
         Peas p = new Peas();
         p.stykpris = 0.1;
@@ -32,7 +31,9 @@ public class Main {
         t.blomstre = false;
         t.farve = ("Blå");
         t.forhandelbar = true;
-        t.givVand();
+
+        VareListe vis = new VareListe();
+        vis.opteldning();
 
     }
 

@@ -9,15 +9,24 @@ public class VareListe {
         vareLager.add(new Agurker());
         vareLager.add(new Apple());
         vareLager.add(new Peas());
+
+        System.out.println("Der er "+varerIAlt()+" vare på lageret");
+        visLager();
     }
 
-    public int varerIAlt(){return vareLager.size();}
+    public int varerIAlt(){
+        return vareLager.size();
+    }
 
-    /*public void visLager(){
-        int i = 0;
-        for (i != vareLager.size();) {
-            return(" ");
+    public int antalAgurker(){
+        return 0;
+    }
+
+    public void visLager(){
+        for (int i = 0; i < vareLager.size(); i++){
+            System.out.println("Vare nummer " + i + " er " + vareLager.get(i));
+            //System.out.println("Der er" + "antal agurker på lageret");
         }
-    }*/
-    public int antalAgurker(){return 0;}
+    }
+
 }
